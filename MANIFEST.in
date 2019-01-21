@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include club_poker *.css
+recursive-include club_poker *.csv
+recursive-include club_poker *.html
+recursive-include club_poker *.ico
+recursive-include club_poker *.js
+recursive-include club_poker *.json
+recursive-include club_poker *.md
+recursive-include club_poker *.png
+recursive-include club_poker *.py
+recursive-include club_poker *.svg
+recursive-include club_poker *.txt
+recursive-exclude club_poker *.pyc
